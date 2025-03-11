@@ -26,7 +26,7 @@ while True:
 
     item_data[item_name] = item_price
 
-    print(f"Scraped: {id} item/s")
+    print(f"Scrapped: {id} item/s")
     if soup.find("h4", attrs={"class":"title"}):
         id += 1
         url = f"https://webscraper.io/test-sites/e-commerce/allinone/product/{id}"
